@@ -32,11 +32,17 @@
     
 <!-- vue 3 app embed -->
 <div id="app">
-    {{ placeHolder }}
+    
+   <!-- {{ placeHolder }} -->
 
-    <li v-for="item in items">
-        {{ item.message }}
-      </li>
+   <form>
+
+    <input v-model="data1">
+
+    </form>
+
+    {{ data1 }}
+
 </div>
 
 <footer>
