@@ -33,6 +33,10 @@
 <!-- vue 3 app embed -->
 <div id="app">
     {{ placeHolder }}
+
+    <li v-for="item in items">
+        {{ item.message }}
+      </li>
 </div>
 
 <footer>
