@@ -1,5 +1,5 @@
 
-const ogTags = Vue.createApp({
+const mainVueApp = Vue.createApp({
     data() {
       return {
         placeHolder: 'Hello Vue!'
